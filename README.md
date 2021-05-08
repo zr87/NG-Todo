@@ -22,7 +22,7 @@ Invision wireframe: https://projects.invisionapp.com/freehand/document/RGhiq060r
 | NG-06    | DB: Storing the todos | If we refresh the browser, the list remains. The storage is a local db.json ran via json-server package, see Data Storage section! |
 | NG-07    | DB: deleting todos | If we click the delete button on a todo item, it first deletes it from the database then removes it from the list |
 | NG-08    | DB: adding todos | If we click the "add todo" button it saves the item into the db, and only adds the item to the list of items upon successful save! |
-| NG-09    | DB&Routing: todo modification | It can modify the single task on a separate page "edit/:id" - saving the edited item gets updated in the the db. If update was succesfull the app navigates back to todo list screen "/" |
+| NG-09    | DB&Routing: todo modification | The user  by clicking the edit button can modify a single task on a separate page "edit/:id" - saving the edited item gets updated in the the db. If update was succesfull the app navigates back to todo list screen "/" |
 
 
 
