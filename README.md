@@ -29,12 +29,12 @@ Invision wireframe: https://projects.invisionapp.com/freehand/document/RGhiq060r
 
 ## Data Storage
 
-- use the json-server for storing todo items
+- use the `json-server` package for storing todo items
 - create some mock items (3-5 items) 
 - the API path should be localhost:3000/todos
-- create a service for http requests before hand, it should handle all basic CRUD eperations
+- create a service for http requests before hand, it should handle all basic CRUD operations
 - create an interface for Todo
-- IMPORTANT! create db.json outside src folder!
+- IMPORTANT! Create db.json outside src folder!
 
 
 
