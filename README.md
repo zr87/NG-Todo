@@ -5,10 +5,11 @@ Invision wireframe: https://projects.invisionapp.com/freehand/document/RGhiq060r
 ## Before you start!
  - create a fork of the repo
  - read trough the readme!
- - commit often, preferably after each storypoint!
- - push your progress at the end of the day   
  - clone the repo on your local machine and avoid cloning it into an exsting git repository folder! 
  - run `npm install` in project folder to install node dependencies!
+ - commit often, preferably after each storypoint!
+ - push your progress at the end of the day   
+
 
 ## Story points
 
