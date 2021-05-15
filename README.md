@@ -27,7 +27,7 @@ Invision wireframe: https://projects.invisionapp.com/freehand/document/RGhiq060r
 
 
 ## Design story points
-Use the [Angular Material](https://material.angular.io/) to add style to the app! It is on You which theme you choose!
+Use the [Angular Material](https://material.angular.io/) library to add style to the app! It is on You which theme you choose!
 
 | Code       | Story title | description     |
 | :---       |    :----:   | :---          |
@@ -36,6 +36,7 @@ Use the [Angular Material](https://material.angular.io/) to add style to the app
 | NGS-03     | app header with [MatToolbar](https://material.angular.io/components/toolbar/overview) | The header should  be displayed with the MatToolbar component in the theme's primary color   |
 | NGS-04     | buttons with [MatButton](https://material.angular.io/components/button/overview) | All buttons should be displayed with the material flat button component in the theme's primary color   |
 | NGS-05    | inputs with [MatInput](https://material.angular.io/components/input/overview) | All inputs should be displayed with the material input component |
+| NGS-06    | mobile first design |The app should be optimized to 414px screen width |
 
 
 ## Data Storage
