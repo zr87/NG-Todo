@@ -26,6 +26,16 @@ Invision wireframe: https://projects.invisionapp.com/freehand/document/RGhiq060r
 | NG-09    | DB&Routing: todo modification | The user  by clicking the edit button can modify a single task on a separate page "edit/:id" - saving the edited item gets updated in the the db. If update was succesfull the app navigates back to todo list screen "/" |
 
 
+## Design story points
+Use the [Angular Material](https://material.angular.io/) to add style to the app! It is on You which theme you choose!
+
+| Code       | Story title | description     |
+| :---       |    :----:   | :---          |
+| NGS-01    | icons with [MatIcon](https://material.angular.io/components/icon/overview) | All icons should be displayed with the material icons |
+| NGS-02    | Todo items with [MatCard](https://material.angular.io/components/card/overview) | All icons should be displayed with the material icons |
+| NGS-03     | app header with [MatToolbar](https://material.angular.io/components/toolbar/overview) | The header should  be displayed with the MatToolbar component in the theme's primary color   |
+| NGS-04     | buttons with [MatButton](https://material.angular.io/components/button/overview) | All buttons should be displayed with the material flat button component in the theme's primary color   |
+| NGS-05    | inputs with [MatInput](https://material.angular.io/components/input/overview) | All inputs should be displayed with the material input component |
 
 
 ## Data Storage
