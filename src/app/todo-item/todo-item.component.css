@@ -1,0 +1,32 @@
+.heading{
+  background: linear-gradient(to right, rgb(2,228,171),rgb(74,215,240));
+  padding:  100px;
+  padding-bottom: 150px;
+}
+.mat-title{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow:black 0 1px 2px;
+
+}
+.container{
+  max-width: 800px;
+  margin: auto auto auto 30%;
+
+}
+.input{
+  width: 600px;
+  height: 25px;
+  padding: 5px;
+}
+.add-todo-box{
+  padding: 25px;
+  background: white;
+  border-radius: 4px;
+  margin-top: -68px;
+  box-shadow:black 0 4px 12px;
+}
+
+
+
