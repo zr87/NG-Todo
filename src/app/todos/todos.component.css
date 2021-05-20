@@ -1,0 +1,29 @@
+.todo-item{
+  display: flex;
+  font-size: 18px;
+  margin: 25px auto 15px auto;
+  padding: 35px 15px;
+  background: #eee;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f2f3f5;
+  cursor: pointer;
+
+
+}
+.todo-item.check-box{
+  border: 2px solid #eee;
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+  opacity: 0;
+  margin-right: 20px;
+}
+.check-box{
+  margin-right: 15px;
+}
+.todo-item .todo-controls-box{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+

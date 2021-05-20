@@ -1,0 +1,44 @@
+<section class="heading">
+  <h1 class="mat-title">
+    Todos
+  </h1>
+</section>
+<div class="container">
+
+  <div class="add-todo-box">
+
+    <form #form="ngForm" (ngSubmit)="onFormSubmit(form)">
+      <h3 class="title">New Todo</h3>
+
+      <div class="field" >
+        <div class="control">
+          <input ngModel #todoTextField="ngModel" required name="text"  type="text" class="input" placeholder="Type here">
+          <button type="submit" class="button" mat-raised-button color="accent" >+Add</button>
+        </div>
+      </div>
+    </form>
+    <p style="color: red" class="help" *ngIf="todoTextField.invalid">Please enter the text of your todo</p>
+  </div>
+
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <div class="todos-list">
+
+
+      <app-todos *ngFor="let todo of todos"
+                 [todo]="todo"
+                 (todoClicked)="toggleCompleted(todo)"
+                 (editClicked)="editTodo(todo)"
+                 (deleteClicked)="deleteTodo(todo)" >
+
+      </app-todos>
+
+    </div>
+
+  </div>
+</section>
+
+
