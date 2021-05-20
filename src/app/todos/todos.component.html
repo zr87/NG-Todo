@@ -1,0 +1,19 @@
+<div class="todo-item " (click)="onTodoClicked()">
+  <div class="check-box">
+    <input type="checkbox">
+    <i class="mat-pseudo-checkbox">check</i>
+  </div>
+
+  <div class="todo-text" *ngIf="todo">
+
+    {{todo.text}}
+
+
+
+    <button mat-button color="primary" class="edit" (click)="onEditClicked()"> Edit</button>
+    <button mat-button color="primary" class="delete" (click)="onDeleteClicked()"> Delete</button>
+
+
+
+  </div>
+</div>
